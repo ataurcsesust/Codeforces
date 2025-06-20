@@ -1,0 +1,24 @@
+#include <bits/stdc++.h>
+using namespace std;
+#define ll long long
+#define all(x) x.begin(), x.end()
+void solve() {
+        ll n; cin >> n; 
+        cout << n*2 -1 <<endl;
+        for(ll i=1;i<=n;i++){
+           cout << i <<' '<<1<<' '<<i<<endl;
+           if(i!=n)
+           cout << i <<' '<<i+1<<' '<<n <<endl;
+       }
+
+}
+
+signed main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(0);
+    int t=1;
+     cin >> t;
+    while (t--)
+     solve();
+    return 0;
+}
